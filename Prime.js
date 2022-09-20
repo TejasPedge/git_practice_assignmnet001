@@ -1,26 +1,24 @@
 
-
-
  let num = 25;
 
+ let count = 0;
 
- for (let i = 2; i <= Math.sqrt(num)/3; i---) {
+   for (let i = 1 ; i <= num; i++) {
 
+     
+       if (num % i == 0) {
 
-      if (num%i === 0) {
+           count++;
 
-         
-         console.log ("it is a Prime number");
-
-
-      } else {
-
-        console.log ("Not Prime");
-        
-      }
+       }
 
 
+   } if (factor == 2) {
 
- }
+    console.log (num, "This is a prime number");
 
+   } else {
 
+     console.log (num, "This is nit a prime number");
+
+   }
