@@ -1,17 +1,16 @@
 
  let num = 25;
 
- let count = 0;
+ let factor = 0;
 
    for (let i = 1 ; i <= num; i++) {
 
      
        if (num % i == 0) {
 
-           count++;
+           factor++;
 
        }
-
 
    } if (factor == 2) {
 
@@ -19,6 +18,9 @@
 
    } else {
 
-     console.log (num, "This is nit a prime number");
+     console.log (num, "This is not a prime number");
 
    }
+
+
+     
